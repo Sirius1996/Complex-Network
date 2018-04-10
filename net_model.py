@@ -5,23 +5,6 @@ from pylab import mpl                           #解决中文显示问题
 mpl.rcParams['font.sans-serif'] = ['SimHei']    #指定默认字体
 import numpy as np
 
-#check connectivity
-#定义一个函数，去检查图的连通性
-def reachable_nodes(G,start):
-    seen=set()                                  #一个空集
-    stack=[start]                               #一个空栈，将start放入
-    while stack:
-        node=stack.pop()
-        if node not in seen:
-            seen.add(node)
-            stack.extend(G.neighbors(node))     #将这个结点都全部邻居入栈
-    return seen                                 #seen最后即存放所有邻居结点
-
-def is_connected(G):
-    for start in G:
-        reachable=reachable_nodes(G,start)
-    return len(reachable)==len(G)
-
 #检查图的强连通性（对于有向图）：
 def directed_reachable_nodes(G,start):
     seen=set()
@@ -43,7 +26,7 @@ def directed_is_connected(G):
 #check Probability of connectivity
 #检查连通概率
 def connected_prob(n,p,iters):
-    num=0.0
+    num=0
     for i in range(iters):
         random_graph = nx.erdos_renyi_graph(n,p)
         if is_connected(random_graph):
@@ -51,20 +34,17 @@ def connected_prob(n,p,iters):
     return float(num/iters)
 
 
-
-
-
 #构造一个有20个结点，每个节点度为3度规则分布网络
 RG=nx.random_regular_graph(3,20)
 pos = nx.spectral_layout(RG)
-# nx.draw(RG, pos, with_labels = False, node_size = 30)
-# plt.show()
+nx.draw(RG, pos, with_labels = False, node_size = 30)
+plt.show()
 
 
 ER=nx.erdos_renyi_graph(20,0.2)
 pos=nx.shell_layout(ER)
-# nx.draw(ER,pos,with_labels=True)
-# plt.show()
+nx.draw(ER,pos,with_labels=True)
+plt.show()
 
 #test:判断两个图分别是否连通
 print is_connected(RG)
@@ -92,3 +72,37 @@ plt.figure()
 plt.plot(ps,ys)
 plt.show()
 
+
+#网路可用性指标的设计
+def reachable_nodes(G,start):
+    seen=set()                                  #一个空集
+    stack=[start]                               #一个空栈，将start放入
+    while stack:
+        node=stack.pop()
+        if node not in seen:
+            seen.add(node)
+            stack.extend(G.neighbors(node))     #将这个结点都全部邻居入栈
+    return seen                                 #seen最后即存放所有邻居结点
+
+def is_connected(G):
+    for start in G:
+        reachable=reachable_nodes(G,start)
+    return len(reachable)==len(G)
+
+
+def findConnect(G):
+    #找到最大连通分量
+    num=0.0
+    count=0
+    for start in G:
+        reachable=directed_reachable_nodes(G,start)
+        if len(reachable)<count:
+            num=num+(len(reachable)-1)*len(reachable)
+        count=count+1
+    return num
+
+def usalbe(G):
+    #该指标为网络可用性指标
+    conn=findConnect(G)
+    res=conn/(G.size-1)*G.size
+    return res

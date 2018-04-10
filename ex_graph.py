@@ -31,7 +31,7 @@ nx.draw_networkx_nodes(G, pos, nodelist=list(p.keys()),
 plt.xlim(-0.05, 1.05)
 plt.ylim(-0.05, 1.05)
 plt.axis('off')
-plt.show()
+# plt.show()
 
 
 #问题：如何确定队列长度以及每一次迭代后的位置
@@ -70,8 +70,11 @@ def usable(G):
             loopsize=loopsize+1
             sum=sum+temp*(temp-1)
         pointNum=pointNum+1
-    print sum,loopsize,pointNum
-    return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
+    #print sum,loopsize,pointNum
+    if (float(loopsize)*float(pointNum)*(float(pointNum)-1))!=0:
+        return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
+    else:
+        return float(0)
 
 
 print usable(G)
@@ -80,3 +83,9 @@ x = range(len(degree))                             #生成x轴序列，从1到�
 y = [z / float(sum(degree)) for z in degree]  
 plt.loglog(x,y,color="blue",linewidth=2)           #在双对数坐标轴上绘制度分布曲线  
 plt.show()  
+
+graph_size=200
+print usable(G)
+for num in range(1,graph_size):
+    G.remove_node(num)
+    print usable(G)

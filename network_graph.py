@@ -81,7 +81,10 @@ def usable(G):
             loopsize=loopsize+1
             sum=sum+temp*(temp-1)
         pointNum=pointNum+1
-    return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
+    if (float(loopsize)*float(pointNum)*(float(pointNum)-1))!=0:
+        return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
+    else:
+        return float(0)
 
         
 
@@ -94,11 +97,29 @@ def usable(G):
 #     for start in G:
 
 #1、采用随机方式生成初始解，初始顺序为默认顺序
-# def attack_func(G):
-#     attack_arr=[start]
-#     for start in G:
-    
+def attack_func1(G):
+    graph_size=6
+    print usable(G)
+    for num in range(1,graph_size):
+        G.remove_node(num)
+        print usable(G)  
 
+#2、采用代价下的攻击方式：度数优先的攻击
+#思路：嗅探结点度数，按照度数大小从大到小攻击
+def attack_func2(G):
+    pass
+
+
+#3、采用代价下的攻击方式：介数优先度攻击
+#思路：按结点介数大小从大到小攻击
+def attack_func3(G):
+    score = nx.betweenness_centrality(G)  
+    score = sorted(score.items(), key=lambda item:item[1], reverse = True)  
+    output = []  
+    for node in score:  
+        output.append(node[0])  
+  
+    print(output)  
 
 
 TG=nx.Graph()
@@ -115,6 +136,4 @@ TG.add_node(6)
 # nx.draw(TG , pos=None, with_labels = True, node_size = 350)
 # plt.show()
 
-print usable(TG)
-degree=nx.degree_histogram(TG)
-print degree
+attack_func3(TG)

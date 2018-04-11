@@ -107,7 +107,16 @@ def attack_func1(G):
 #2、采用代价下的攻击方式：度数优先的攻击
 #思路：嗅探结点度数，按照度数大小从大到小攻击
 def attack_func2(G):
-    pass
+    score=nx.degree(G)
+    score=sorted(score,key=lambda score:score[1],reverse=True)
+    output=[]
+    graph_size=6
+    for node in score:
+        output.append(node[0])
+    print usable(G)
+    for num in range(1,graph_size):
+        G.remove_node(num)
+        print usable(G)
 
 
 #3、采用代价下的攻击方式：介数优先度攻击
@@ -115,11 +124,14 @@ def attack_func2(G):
 def attack_func3(G):
     score = nx.betweenness_centrality(G)  
     score = sorted(score.items(), key=lambda item:item[1], reverse = True)  
-    output = []  
+    output = [] 
+    graph_size=6 
     for node in score:  
         output.append(node[0])  
-  
-    print(output)  
+    print usable(G)
+    for num in range(1,graph_size):
+        G.remove_node(num)
+        print usable(G)
 
 
 TG=nx.Graph()
@@ -136,4 +148,4 @@ TG.add_node(6)
 # nx.draw(TG , pos=None, with_labels = True, node_size = 350)
 # plt.show()
 
-attack_func3(TG)
+attack_func2(TG)

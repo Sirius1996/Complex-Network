@@ -1,6 +1,7 @@
-# -*- coding: utf-8 -*-  
+# -*- coding: utf-8 -*-
 import networkx as nx
 from networkx.readwrite import json_graph
+
 from pyecharts import Graph
 
 g = nx.Graph()
@@ -17,5 +18,5 @@ print(g_data)
 
 eg = Graph('设备最新拓扑图')
 eg.add('Devices', nodes=g_data['nodes'], links=g_data['links'])
-# eg.show_config()
+#eg.show_config()
 eg.render()

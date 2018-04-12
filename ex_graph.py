@@ -19,19 +19,18 @@ for n in pos:
         dmin = d
 
 # color by path length from node near center
-# p = dict(nx.single_source_shortest_path_length(G, ncenter))
 
-# plt.figure(figsize=(8, 8))
-# nx.draw_networkx_edges(G, pos, nodelist=[ncenter], alpha=0.4)
-# nx.draw_networkx_nodes(G, pos, nodelist=list(p.keys()),
-#                        node_size=80,
-#                        node_color=list(p.values()),
-#                        cmap=plt.cm.Blues_r)
+plt.figure(figsize=(8, 8))
+nx.draw_networkx_edges(G, pos, nodelist=[ncenter], alpha=0.4)
+nx.draw_networkx_nodes(G, pos, nodelist=list(p.keys()),
+                       node_size=80,
+                       node_color=list(p.values()),
+                       cmap=plt.cm.Blues_r)
 
-# plt.xlim(-0.05, 1.05)
-# plt.ylim(-0.05, 1.05)
-# plt.axis('off')
-# plt.show()
+plt.xlim(-0.05, 1.05)
+plt.ylim(-0.05, 1.05)
+plt.axis('off')
+plt.show()
 
 
 #问题：如何确定队列长度以及每一次迭代后的位置
@@ -76,6 +75,18 @@ def usable(G):
     else:
         return float(0)
 
+def attack_func2(G):
+    score=nx.degree(G)
+    score=sorted(score,key=lambda score:score[1],reverse=True)
+    output=[]
+    graph_size=6
+    for node in score:
+        output.append(node[0])
+    print usable(G)
+    for num in range(1,graph_size):
+        G.remove_node(num)
+        print usable(G)
+
 def attack_func3(G):
     score = nx.betweenness_centrality(G)  
     score = sorted(score.items(), key=lambda item:item[1], reverse = True)  
@@ -98,4 +109,5 @@ for num in range(1,graph_size):
     G.remove_node(num)
     print usable(G)
 
-attack_func3(G)
+attack_func2(G)
+# attack_func3(G)

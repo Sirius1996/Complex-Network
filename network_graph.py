@@ -89,12 +89,7 @@ def usable(G):
         
 
 #代价下网络攻击实现
-# def cal_degree(G,start):
-    
 
-# def attack_func(G):
-#     max_degree=0
-#     for start in G:
 
 #1、采用随机方式生成初始解，初始顺序为默认顺序
 def attack_func1(G):

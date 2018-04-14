@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 from pylab import mpl                           #解决中文显示问题
 mpl.rcParams['font.sans-serif'] = ['SimHei']    #指定默认字体
 import numpy as np
+from networkx.readwrite import json_graph
+import json
+
+
 G = nx.random_geometric_graph(200, 0.125)
 # position is stored as node attribute data for random_geometric_graph
 pos = nx.get_node_attributes(G, 'pos')
@@ -20,17 +24,17 @@ for n in pos:
 
 # color by path length from node near center
 
-plt.figure(figsize=(8, 8))
-nx.draw_networkx_edges(G, pos, nodelist=[ncenter], alpha=0.4)
-nx.draw_networkx_nodes(G, pos, nodelist=list(p.keys()),
-                       node_size=80,
-                       node_color=list(p.values()),
-                       cmap=plt.cm.Blues_r)
+# plt.figure(figsize=(8, 8))
+# nx.draw_networkx_edges(G, pos, nodelist=[ncenter], alpha=0.4)
+# nx.draw_networkx_nodes(G, pos, nodelist=list(p.keys()),
+#                        node_size=80,
+#                        node_color=list(p.values()),
+#                        cmap=plt.cm.Blues_r)
 
-plt.xlim(-0.05, 1.05)
-plt.ylim(-0.05, 1.05)
-plt.axis('off')
-plt.show()
+# plt.xlim(-0.05, 1.05)
+# plt.ylim(-0.05, 1.05)
+# plt.axis('off')
+# plt.show()
 
 
 #问题：如何确定队列长度以及每一次迭代后的位置
@@ -97,17 +101,19 @@ def attack_func3(G):
 
 
 print usable(G)
-degree=nx.degree_histogram(G)
-x = range(len(degree))                             #生成x轴序列，从1到最大度
-y = [z / float(sum(degree)) for z in degree]  
-plt.loglog(x,y,color="blue",linewidth=2)           #在双对数坐标轴上绘制度分布曲线  
-plt.show()  
 
-graph_size=200
-print usable(G)
-for num in range(1,graph_size):
-    G.remove_node(num)
-    print usable(G)
 
-attack_func2(G)
+# degree=nx.degree_histogram(G)
+# x = range(len(degree))                             #生成x轴序列，从1到最大度
+# y = [z / float(sum(degree)) for z in degree]  
+# plt.loglog(x,y,color="blue",linewidth=2)           #在双对数坐标轴上绘制度分布曲线  
+# plt.show()  
+
+# graph_size=200
+# print usable(G)
+# for num in range(1,graph_size):
+#     G.remove_node(num)
+#     print usable(G)
+
+# attack_func2(G)
 # attack_func3(G)

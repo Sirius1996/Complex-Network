@@ -11,4 +11,5 @@ G.add_node(2)
 G.add_node(3)
 G.add_edge(1,2)
 G.add_edge(1,3)
-nx.write_gexf(G,'/Users/siriusblack/Desktop/complex_network/Complex-Network/format.gexf')
+
+print G

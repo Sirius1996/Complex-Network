@@ -79,6 +79,13 @@ def usable(G):
     else:
         return float(0)
 
+def attack_func1(G):
+    graph_size=6
+    print usable(G)
+    for num in range(1,graph_size):
+        G.remove_node(num)
+        print usable(G)  
+
 def attack_func2(G):
     score=nx.degree(G)
     score=sorted(score,key=lambda score:score[1],reverse=True)

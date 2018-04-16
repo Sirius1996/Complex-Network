@@ -2,22 +2,8 @@
 import networkx as nx
 from networkx.readwrite import json_graph
 import json
-
-
-g = nx.Graph()
-
-g.add_node(0, name='Node 1')
-g.add_node(1, name='Node 2')
-g.add_node(2, name='Node 3')
-g.add_edge(0,1)
-g.add_edge(1,2)
-g.add_node(3)
-g.add_node(4)
-g.add_edge(3,4)
-
-#构造一个有20个结点，每个节点度为3度规则分布网络测试显示
-RG=nx.random_regular_graph(3,20)
-pos = nx.spectral_layout(RG)
+import threading
+import time
 
 
 #转换成json处理
@@ -38,7 +24,40 @@ def transGtoJson(g):
     retArr['links']=transLinks
     return retArr
 
-wirteData=transGtoJson(RG)
-print wirteData
-with open("/Users/siriusblack/PycharmProjects/complex_network/templates/test2.json","w") as file:
-    json.dump(wirteData,file)
+def delNodeByTime(g,num):
+    # graph_size=20
+    #Nums of the nodes
+    g.remove_node(num)
+
+#构造一个有20个结点，每个节点度为3度规则分布网络测试显示
+global RG,delNodeCount
+delNodeCount=2
+RG=nx.random_regular_graph(3,20)
+pos = nx.spectral_layout(RG)
+
+def writeFile():
+    delNodeByTime(RG,delNodeCount)
+    wirteData=transGtoJson(RG)
+    print wirteData
+    with open("/Users/siriusblack/PycharmProjects/complex_network/templates/test3.json","w") as file:
+        json.dump(wirteData,file)
+    print "Update complete"
+
+
+for timerCount in range(1,6):
+    timeFun=threading.Timer(2,writeFile)
+    timeFun.start()
+    time.sleep(5)
+    delNodeCount=delNodeCount+1
+    timerCount=timerCount+1
+
+# g = nx.Graph()
+
+# g.add_node(0, name='Node 1')
+# g.add_node(1, name='Node 2')
+# g.add_node(2, name='Node 3')
+# g.add_edge(0,1)
+# g.add_edge(1,2)
+# g.add_node(3)
+# g.add_node(4)
+# g.add_edge(3,4)

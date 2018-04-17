@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from pylab import mpl                           #解决中文显示问题
 mpl.rcParams['font.sans-serif'] = ['SimHei']    #指定默认字体
 import numpy as np
+from networkx.readwrite import json_graph
+import json
 
 Int_Graph=nx.Graph()
 # Int_Graph=nx.Graph()
@@ -86,18 +88,27 @@ def usable(G):
     else:
         return float(0)
 
-        
+
+#与前端交互逻辑，目前写到json中
+
+def TransNumToJson(num):
+    pushData=[{'jsonNum':num}]
+    with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json.json","w") as file:
+        json.dump(pushData,file)
+    print "Update complete"
+
+
 
 #代价下网络攻击实现
-
-
 #1、采用随机方式生成初始解，初始顺序为默认顺序
 def attack_func1(G):
     graph_size=6
     print usable(G)
+    TransNumToJson(usable(G))
     for num in range(1,graph_size):
         G.remove_node(num)
         print usable(G)  
+        TransNumToJson(usable(G))
 
 #2、采用代价下的攻击方式：度数优先的攻击
 #思路：嗅探结点度数，按照度数大小从大到小攻击
@@ -124,6 +135,7 @@ def attack_func3(G):
     for node in score:  
         output.append(node[0])  
     print usable(G)
+
     for num in range(1,graph_size):
         G.remove_node(num)
         print usable(G)
@@ -143,4 +155,4 @@ TG.add_node(6)
 # nx.draw(TG , pos=None, with_labels = True, node_size = 350)
 # plt.show()
 
-attack_func2(TG)
+attack_func1(TG)

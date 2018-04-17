@@ -13,8 +13,8 @@ def transGtoJson(g):
     transArr=json.loads(trans)
     transNodes=transArr['nodes']
     transLinks=transArr['links']
-    print transNodes
-    print transLinks
+    # print transNodes
+    # print transLinks
     for item in transNodes:
         item['category']=1
     #封装json
@@ -31,20 +31,19 @@ def delNodeByTime(g,num):
 
 #构造一个有20个结点，每个节点度为3度规则分布网络测试显示
 global RG,delNodeCount
-delNodeCount=2
-RG=nx.random_regular_graph(3,20)
+delNodeCount=1
+RG=nx.random_regular_graph(3,100)
 pos = nx.spectral_layout(RG)
 
 def writeFile():
     delNodeByTime(RG,delNodeCount)
     wirteData=transGtoJson(RG)
-    print wirteData
     with open("/Users/siriusblack/PycharmProjects/complex_network/templates/test3.json","w") as file:
         json.dump(wirteData,file)
     print "Update complete"
 
 
-for timerCount in range(1,6):
+for timerCount in range(1,50):
     timeFun=threading.Timer(2,writeFile)
     timeFun.start()
     time.sleep(5)

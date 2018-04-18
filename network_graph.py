@@ -131,11 +131,10 @@ def attack_func3(G):
     score = nx.betweenness_centrality(G)  
     score = sorted(score.items(), key=lambda item:item[1], reverse = True)  
     output = [] 
-    graph_size=6 
+    graph_size=100 
     for node in score:  
         output.append(node[0])  
     print usable(G)
-
     for num in range(1,graph_size):
         G.remove_node(num)
         print usable(G)
@@ -155,4 +154,7 @@ TG.add_node(6)
 # nx.draw(TG , pos=None, with_labels = True, node_size = 350)
 # plt.show()
 
-attack_func1(TG)
+
+RG=nx.random_regular_graph(3,100)
+pos = nx.spectral_layout(RG)
+attack_func3(RG)

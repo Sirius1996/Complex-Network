@@ -107,7 +107,7 @@ def attack_func3(G):
     print(output)  
 
 
-print usable(G)
+# print usable(G)
 
 
 # degree=nx.degree_histogram(G)
@@ -123,4 +123,4 @@ print usable(G)
 #     print usable(G)
 
 # attack_func2(G)
-# attack_func3(G)
+attack_func3(G)

@@ -9,10 +9,7 @@ import json
 
 
 G = nx.random_geometric_graph(200, 0.125)
-# position is stored as node attribute data for random_geometric_graph
 pos = nx.get_node_attributes(G, 'pos')
-
-# find node near center (0.5,0.5)
 dmin = 1
 ncenter = 0
 for n in pos:
@@ -35,6 +32,8 @@ for n in pos:
 # plt.ylim(-0.05, 1.05)
 # plt.axis('off')
 # plt.show()
+
+
 
 
 #问题：如何确定队列长度以及每一次迭代后的位置

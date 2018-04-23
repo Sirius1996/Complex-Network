@@ -43,9 +43,9 @@ def usable(G):
         pointNum=pointNum+1
     #print sum,loopsize,pointNum
     if (float(loopsize)*float(pointNum)*(float(pointNum)-1))!=0:
-        return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
+        return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))*1000000
     else:
-        return float(0)
+        return float(0)*1000000
 
 def attack_func1(G,delNum):
     print usable(G)

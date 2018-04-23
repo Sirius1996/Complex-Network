@@ -7,16 +7,16 @@ import time
 
 
 #卫星网络，两个
-SatG1=nx.random_regular_graph(1,2)
-SatG2=nx.random_regular_graph(2,3)
+SatG1=nx.random_regular_graph(3,10)
+SatG2=nx.random_regular_graph(3,12)
 
 #接入卫星，2个子网，每个子网有三个
-InSatG1=nx.random_regular_graph(2,3)
-InSatG2=nx.random_regular_graph(2,3)
+InSatG1=nx.random_regular_graph(3,30)
+InSatG2=nx.random_regular_graph(3,40)
 
 #地面子网，两个网络，第一个网络有70个结点，第二个网络有90个结点
-LandG1=nx.random_regular_graph(3,70)
-LandG2=nx.random_regular_graph(3,90)
+LandG1=nx.random_regular_graph(3 ,100)
+LandG2=nx.random_regular_graph(3,100)
 
 G=nx.Graph()#最后返回的一张大图
 
@@ -42,33 +42,45 @@ def writeInfoToGraph(totalNumOfNodes,G,cate):
         edgeArr.append(outTul)
     return num
 
-totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,SatG1,1)
-totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,SatG2,2)
-totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,InSatG1,3)
-totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,InSatG2,4)
-totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,LandG1,5)
-totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,LandG2,6)
-totalNumOfNodes=totalNumOfNodes-1
 
-G.add_nodes_from(nodeArr)
-G.add_edges_from(edgeArr)
+def putSubInGraph(totalNumOfNodes):
+    totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,SatG1,1)
+    totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,SatG2,2)
+    totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,InSatG1,3)
+    totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,InSatG2,4)
+    totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,LandG1,5)
+    totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,LandG2,6)
 
-for item in G:
-    if item>0 and item<3:
-        G.node[item]['category']=1
-    elif item>=3 and item<6:
-        G.node[item]['category']=2
-    elif item>=6 and item<9:
-        G.node[item]['category']=3
-    elif item>=9 and item<12:
-        G.node[item]['category']=4
-    elif item>=12 and item<82:
-        G.node[item]['category']=5
-    elif item>=82:
-        G.node[item]['category']=6
-    else:
-        pass
 
+    G.add_nodes_from(nodeArr)
+    G.add_edges_from(edgeArr)
+    G.add_edge(SatG1.number_of_nodes(),SatG1.number_of_nodes()+1)
+    G.add_edge(SatG1.number_of_nodes()+SatG2.number_of_nodes(),SatG1.number_of_nodes()+SatG2.number_of_nodes()+1)
+    G.add_edge(SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes(),SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+1)
+    G.add_edge(SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes(),SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+1)
+    G.add_edge(SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+LandG1.number_of_nodes(),SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+LandG1.number_of_nodes()+1)
+    G.add_edge(SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes(),SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+LandG1.number_of_nodes()+1)
+
+
+    for item in G:
+
+        if item>0 and item<SatG1.number_of_nodes()+1:
+            G.node[item]['category']=1
+        elif item>=SatG1.number_of_nodes()+1 and item<SatG1.number_of_nodes()+SatG2.number_of_nodes()+1:
+            G.node[item]['category']=2
+        elif item>=SatG1.number_of_nodes()+SatG2.number_of_nodes()+1 and item<SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+1:
+            G.node[item]['category']=3
+        elif item>=SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+1 and item<SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+1:
+            G.node[item]['category']=4
+        elif item>=SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+1 and item<SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+LandG1.number_of_nodes()+1:
+            G.node[item]['category']=5
+        elif item>=SatG1.number_of_nodes()+SatG2.number_of_nodes()+InSatG1.number_of_nodes()+InSatG2.number_of_nodes()+LandG1.number_of_nodes()+1:
+            G.node[item]['category']=6
+        else:
+            pass
+    
+    writeFile()
+    totalNumOfNodes=1
 #到这里，还差需要添加6个子网之间的连接
 #另外需要处理：删掉的结点
 
@@ -101,7 +113,7 @@ def writeFile():
 # print G.nodes
 
 
-
+#网络性能指标
 #接下来进行对每一个子网对攻击，并返回指标
 def reachable_nodes(G,start):
     seen=set()                                  #一个空集
@@ -138,15 +150,17 @@ def usable(G):
         pointNum=pointNum+1
     #print sum,loopsize,pointNum
     if (float(loopsize)*float(pointNum)*(float(pointNum)-1))!=0:
-        return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))*100
+        if (float(loopsize)*float(pointNum)*(float(pointNum)-1))==1.0:
+            return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))*10
+        else:
+            return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))*1000
     else:
         return float(0)*100
 
 def attack_func1(G,delNum):
-    print usable(G)
-    transValToJson(usable(G))
     G.remove_node(delNum)
     transValToJson(usable(G))
+    putSubInGraph(1)
     print usable(G)  
 
 def attack_func2(G,delNum):
@@ -189,13 +203,18 @@ def transValToJson(val):
 #     delNodeCount=delNodeCount+1
 #     timerCount=timerCount+1
 
-for i in range(1,150):
-    G.remove_node(i)
-    writeFile()
-    transValToJson(usable(G))
-    time.sleep(2)
-    print usable(G)
+# for i in range(1,150):
+#     G.remove_node(i)
+#     writeFile()
+#     transValToJson(usable(G))
+#     time.sleep(2)
+#     print usable(G)
 
+putSubInGraph(1)
 
 #接下来：针对每个不同子网的攻击：用序号去处理
 #处理完之后，重新写入整个大网
+for i in range(1,40):
+    attack_func1(LandG2,i)
+    time.sleep(2)
+

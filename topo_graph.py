@@ -3,8 +3,9 @@ import networkx as nx
 from networkx.readwrite import json_graph
 import json
 import threading
+import thread
 import time
-
+import random
 
 #卫星网络，两个
 SatG1=nx.random_regular_graph(3,10)
@@ -22,28 +23,26 @@ G=nx.Graph()#最后返回的一张大图
 
 
 #写入结点序号信息
-totalNumOfNodes=1
 nodeArr=[]
 edgeArr=[]
-def writeInfoToGraph(totalNumOfNodes,G,cate):
-    num=totalNumOfNodes
-    for item in G:
-        # G.node[item]['index']=totalNumOfNodes
-        # G.node[item]['category']=cate
-        nodeArr.append(item+totalNumOfNodes)
-        num=num+1
+def writeInfoToGraph(totalNum,G,cate):
+    numCount=totalNum
+    for item in range(0,G.number_of_nodes()):
+        nodeArr.append(item+totalNum)
+        numCount=numCount+1
 
     edgeTemp=G.edges
     for item in edgeTemp:
         tempArr=[]
         for tul in item:
-            tempArr.append(tul+totalNumOfNodes)
+            tempArr.append(tul+totalNum)
         outTul=(tempArr[0],tempArr[1])
         edgeArr.append(outTul)
-    return num
+    return numCount
 
 
 def putSubInGraph(totalNumOfNodes):
+    totalNumOfNodes=1
     totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,SatG1,1)
     totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,SatG2,2)
     totalNumOfNodes=writeInfoToGraph(totalNumOfNodes,InSatG1,3)
@@ -130,15 +129,15 @@ def is_connected(G):
         reachable=reachable_nodes(G,start)
     return len(reachable)==len(G)
 
-def usable(G):    
+def usable(UG):    
     #此函数能够保证遍历整张图
     #该指标为网络可用性指标
     loopsize=0          #连通子集的数量
     pointNum=0
     tag=1
     sum=0
-    for start in G:
-        reachable=reachable_nodes(G,start)
+    for start in UG:
+        reachable=reachable_nodes(UG,start)
         temp=reachable
         float(temp)
         if tag<reachable:
@@ -151,11 +150,11 @@ def usable(G):
     #print sum,loopsize,pointNum
     if (float(loopsize)*float(pointNum)*(float(pointNum)-1))!=0:
         if (float(loopsize)*float(pointNum)*(float(pointNum)-1))==1.0:
-            return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))*10
+            return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
         else:
-            return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))*1000
+            return float(sum)/(float(loopsize)*float(pointNum)*(float(pointNum)-1))
     else:
-        return float(0)*100
+        return float(0)
 
 def attack_func1(G,delNum):
     G.remove_node(delNum)
@@ -214,7 +213,114 @@ putSubInGraph(1)
 
 #接下来：针对每个不同子网的攻击：用序号去处理
 #处理完之后，重新写入整个大网
-for i in range(1,40):
-    attack_func1(LandG2,i)
-    time.sleep(2)
+attSeq1=1
+attSeq2=1
+attSeq3=1
+attSeq4=1
+attSeq5=1
+attSeq6=1
 
+def attNet1(threadName,attSeq1):
+    count=1
+    tempdata=1
+    float(tempdata)
+    for count in range(1,10):
+        SatG1.remove_node(count)
+        tempdata=tempdata-random.randint(0,20)*0.015
+        inputData={'Num':tempdata}
+        with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json-1.json","w") as file:
+            json.dump(inputData,file)
+        count=count+1
+        time.sleep(30)
+    thread.exit()
+
+def attNet2(threadName,attSeq1):
+    count=1
+    tempdata=1
+    float(tempdata)
+    for count in range(1,12):
+        SatG2.remove_node(count)
+        tempdata=tempdata-random.randint(0,17)*0.013
+        inputData={'Num':tempdata}
+        with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json-2.json","w") as file:
+            json.dump(inputData,file)
+        count=count+1
+        time.sleep(40)
+    thread.exit()
+
+def attNet3(threadName,attSeq1):
+    count=1
+    tempdata=1
+    float(tempdata)
+    for count in range(1,30):
+        InSatG1.remove_node(count)
+        tempdata=tempdata-random.randint(0,17)*0.0078
+        inputData={'Num':tempdata}
+        with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json-3.json","w") as file:
+            json.dump(inputData,file)
+        count=count+1
+        time.sleep(15)
+    thread.exit()
+
+def attNet4(threadName,attSeq1):
+    count=1
+    tempdata=1
+    float(tempdata)
+    for count in range(1,40):
+        InSatG2.remove_node(count)
+        tempdata=tempdata-random.randint(0,17)*0.0034
+        inputData={'Num':tempdata}
+        with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json-4.json","w") as file:
+            json.dump(inputData,file)
+        count=count+1
+        time.sleep(12)
+    thread.exit()
+
+def attNet5(threadName,attSeq1):
+    count=1
+    tempdata=1
+    float(tempdata)
+    for count in range(1,100):
+        LandG1.remove_node(count)
+        tempdata=tempdata-random.randint(0,17)*0.0013
+        inputData={'Num':tempdata}
+        with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json-5.json","w") as file:
+            json.dump(inputData,file)
+        count=count+1
+        time.sleep(2)
+    thread.exit()
+
+def attNet6(threadName,attSeq1):
+    count=1
+    tempdata=1
+    float(tempdata)
+    for count in range(1,100):
+        LandG2.remove_node(count)
+        tempdata=tempdata-random.randint(0,17)*0.0013
+        inputData={'Num':tempdata}
+        with open("/Users/siriusblack/PycharmProjects/complex_network/templates/format2json-6.json","w") as file:
+            json.dump(inputData,file)
+        count=count+1
+        time.sleep(2)
+    thread.exit()
+
+def remove_node(threadName,seqNum):
+    for i in range(1,200):
+        G.remove_node(i)
+        putSubInGraph(G)
+        time.sleep(5)
+
+def test():
+    thread.start_new_thread(attNet1,("Thread1",attSeq1))
+    thread.start_new_thread(attNet2,("Thread2",attSeq2))
+    thread.start_new_thread(attNet3,("Thread3",attSeq3))
+    thread.start_new_thread(attNet4,("Thread4",attSeq4))
+    thread.start_new_thread(attNet5,("Thread5",attSeq5))
+    thread.start_new_thread(attNet6,("Thread6",attSeq6))
+    thread.start_new_thread(remove_node,("killThread",1))
+
+
+
+if __name__ == '__main__':
+    test()
+    time.sleep(300)

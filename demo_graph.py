@@ -24,14 +24,19 @@ def transGtoJson(G):
 
 def writeFile(G):
     wirteData=transGtoJson(G)
-    with open("/Users/siriusblack/PycharmProjects/complex_network/templates/net6.json","w") as file:
+    with open("/Users/siriusblack/PycharmProjects/complex_network/templates/net1.json","w") as file:
         json.dump(wirteData,file)
     print "Update complete"
 
 G1=nx.random_regular_graph(2,10)
+for item in range(1,G1.number_of_nodes()):
+    if item==3:
+        G1.node[item]['category'] = 1
+    else:
+        G1.node[item]['category'] = 2
 G2=nx.random_regular_graph(3,10)
 G3=nx.random_regular_graph(3,30)
 G4=nx.random_regular_graph(3,40)
 G5=nx.random_regular_graph(3,100)
 G6=nx.random_regular_graph(4,100)
-writeFile(G6)
+writeFile(G1)

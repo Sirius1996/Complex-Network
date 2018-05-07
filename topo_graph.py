@@ -7,6 +7,7 @@ import thread
 import time
 import random
 
+
 #卫星网络，两个
 SatG1=nx.random_regular_graph(3,10)
 SatG2=nx.random_regular_graph(3,12)
@@ -110,7 +111,6 @@ def writeFile():
 #写入文件
 # writeFile()
 # print G.nodes
-
 
 #网络性能指标
 #接下来进行对每一个子网对攻击，并返回指标

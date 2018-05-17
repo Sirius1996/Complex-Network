@@ -1,0 +1,1016 @@
+active-matrix主动矩阵
+
+adapter cards适配卡
+
+advanced application高级应用
+
+analytical graph分析图表
+
+analyze分析
+
+animations动画
+
+application software 应用软件
+
+arithmetic operations算术运算
+
+audio-output device音频输出设备
+
+access time存取时间
+
+access存取
+
+accuracy准确性
+
+ad network cookies广告网络信息记录软件
+
+add-ons 插件
+
+address地址
+
+agents代理
+
+analog signals模拟信号
+
+applets程序
+
+asynchronous communications port异步通信端口
+
+attachment附件
+
+bar code条形码
+
+bar code reader条形码读卡器
+
+basic application基础程序
+
+binary coding schemes二进制译码方案
+
+binary system二进制系统
+
+bit比特
+
+browser浏览器
+
+bus line总线
+
+backup tape cartridge units备份磁带盒单元
+
+bandwidth带宽
+
+bluetooth蓝牙
+
+broadband宽带
+
+business-to-business企业对企业电子商务
+
+business-to-consumer企业对消费者
+
+bus总线
+
+cables连线
+
+cell单元箱
+
+chain printer链式打印机
+
+character and recognition device字符标识识别设备
+
+chart图表
+
+chassis支架
+
+chip芯片
+
+clarity清晰度
+
+closed architecture封闭式体系结构
+
+column列
+
+combination key结合键
+
+computer competency计算机能力
+
+connectivity连接，结点
+
+continuous-speech recognition system连续语言识别系统
+
+control unit操纵单元
+
+cordless or wireless mouse无线鼠标
+
+cable modems有线调制解调器
+
+carpal tunnel syndrome腕骨神经综合症
+
+cd-rom可记录光盘
+
+cd-rw可重写光盘
+
+cd-r可记录压缩光盘
+
+channel信道
+
+chat group谈话群组
+
+chlorofluorocarbons(cfcs) ]氯氟甲烷
+
+client客户端
+
+coaxial cable同轴电缆
+
+cold site冷网站
+
+commerce servers商业服务器
+
+communication channel信道
+
+communication systems信息系统
+
+compact disc rewritable
+
+compact disc光盘
+
+computer abuse amendments act of 19941994计算机滥用法案
+
+computer crime计算机犯罪
+
+computer ethics计算机道德
+
+computer fraud and abuse act of 1986计算机欺诈和滥用法案
+
+computer matching and privacy protection act of 1988计算机查找和隐私保护法案
+
+computer network计算机网络
+
+computer support specialist计算机支持专家
+
+computer technician计算机技术人员
+
+computer trainer计算机教师
+
+connection device连接设备
+
+connectivity连接
+
+consumer-to-consumer个人对个人
+
+cookies-cutter programs信息记录截取程序
+
+cookies信息记录程序
+
+cracker解密高手
+
+cumulative trauma disorder积累性损伤错乱
+
+cybercash电子现金
+
+cyberspace计算机空间
+
+cynic愤世嫉俗者
+
+database数据库
+
+database files数据库文件
+
+database manager数据库管理
+
+data bus数据总线
+
+data projector数码放映机
+
+desktop system unit台式电脑系统单元
+
+destination file目标文件
+
+digital cameras数码照相机
+
+digital notebooks数字笔记本
+
+digital bideo camera数码摄影机
+
+discrete-speech recognition system不连续语言识别系统
+
+document文档
+
+document files文档文件
+
+dot-matrix printer点矩阵式打印机
+
+dual-scan monitor双向扫描显示器
+
+dumb terminal非智能终端
+
+data security数据安全
+
+data transmission specifications数据传输说明
+
+database administrator数据库管理员
+
+dataplay数字播放器
+
+demodulation解调
+
+denial of service attack拒绝服务攻击
+
+dial-up service拨号服务
+
+digital cash数字现金
+
+digital signals数字信号
+
+digital subscriber line数字用户线路
+
+digital versatile disc数字化通用磁盘
+
+digital video disc数字化视频光盘
+
+direct access直接存取
+
+directory search目录搜索
+
+disaster recovery plan灾难恢复计划
+
+disk caching磁盘驱动器高速缓存
+
+diskette磁盘
+
+disk磁碟
+
+distributed data processing system分部数据处理系统
+
+distributed processing分布处理
+
+domain code域代码
+
+downloading下载
+
+dvd 数字化通用磁盘
+
+dvd-r 可写dvd
+
+dvd-ram dvd随机存取器
+
+dvd-rom 只读dvd
+
+e-book电子阅读器
+
+expansion cards扩展卡
+
+end user终端用户
+
+e-cash电子现金
+
+e-commerce电子商务
+
+electronic cash电子现金
+
+electronic commerce电子商务
+
+electronic communications privacy act of1986电子通信隐私法案
+
+encrypting加密术
+
+energy star能源之星
+
+enterprise computing企业计算化
+
+environment环境
+
+erasable optical disks可擦除式光盘
+
+ergonomics人类工程学
+
+ethics道德规范
+
+external modem外置调制解调器
+
+extranet企业外部网
+
+fax machine传真机
+
+field域
+
+find搜索
+
+firewire port火线端口
+
+firmware固件
+
+flash ram闪存
+
+flatbed scanner台式扫描器
+
+flat-panel monitor纯平显示器
+
+floppy disk软盘
+
+formatting toolbar格式化工具条
+
+formula公式
+
+function函数
+
+fair credit reporting act of 1970公平信用报告法案
+
+fiber-optic cable光纤电缆
+
+file compression文件压缩
+
+file decompression文件解压缩
+
+filter过滤
+
+firewall防火墙
+
+firewall防火墙
+
+fixed disk固定硬盘
+
+flash memory闪存
+
+flexible disk可折叠磁盘
+
+floppies磁盘
+
+floppy-disk cartridge磁盘盒
+
+formatting格式化
+
+freedom of information act of 1970信息自由法案
+
+frequency频率
+
+frustrated受挫折
+
+full-duplex communication全双通通信
+
+general-purpose application通用运用程序
+
+gigahertz千兆赫
+
+graphic tablet绘图板
+
+green pc绿色个人计算机
+
+grop by 排序
+
+handheld computer手提电脑
+
+hard copy硬拷贝
+
+hard disk硬盘
+
+hardware硬件
+
+help帮助
+
+host computer主机
+
+home page主页
+
+hyperlink超链接
+
+hacker黑客
+
+half-duplex communication半双通通信
+
+hard-disk cartridge硬盘盒
+
+hard-disk pack硬盘组
+
+head crash磁头碰撞
+
+header标题
+
+help desk specialist帮助办公专家
+
+helper applications帮助软件
+
+hierarchical network层次型网络
+
+history file历史文件
+
+hits匹配记录
+
+horizontal portal横向用户
+
+hot site热网站
+
+hybrid network混合网络
+
+
+image capturing device图像获取设备
+
+information technology信息技术
+
+ink-jet printer墨水喷射印刷机
+
+integrated package综合性组件
+
+intelligent terminal智能终端设备
+
+intergrated circuit集成电路
+
+interface cards接口卡
+
+internal modem内部调制解调器
+
+internet telephony网络电话
+
+internet terminal互联网终端
+
+identification识别
+
+i-drive网络硬盘驱动器
+
+illusion of anonymity匿名幻想
+
+index search索引搜索
+
+information pushers信息推送器
+
+initializing 初始化
+
+instant messaging计时信息
+
+internal hard disk内置硬盘
+
+internet hard drive 网络硬盘驱动器
+
+intranet企业内部网
+
+joystick操纵杆
+
+keyword search关键字搜索
+
+laser printer激光打印机
+
+layout files版式文件
+
+light pen光笔
+
+locate定位
+
+logical operations逻辑运算
+
+lands凸面
+
+line of sight communication视影通信
+
+low bandwidth低带宽
+
+lurking潜伏
+
+
+main board主板
+
+mark sensing标志检测
+
+mechanical mouse机械鼠标
+
+memory内存
+
+menu菜单
+
+menu bar菜单条
+
+microprocessor微处理器
+
+microseconds微秒
+
+modem card调制解调器
+
+monitor显示器
+
+motherboard主板
+
+mouse 鼠标
+
+multifunctional device多功能设备
+
+magnetic tape reels磁带卷
+
+magnetic tape streamers磁带条
+
+mailing list邮件列表
+
+medium band媒质带宽
+
+metasearch engine整合搜索引擎
+
+microwave微波
+
+modem解调器
+
+modulation解调
+
+
+net pc网络计算机
+
+network adapter card网卡
+
+network personal computer网络个人电脑
+
+network terminal 网络终端
+
+notebook computer笔记本电脑
+
+notebook system unit笔记本系统单元
+
+numeric entry数字输入
+
+national information infrastructure protection act of1996国际信息保护法案
+
+national service provider全国性服务供应商
+
+network architecture网络体系结构
+
+network bridge网桥
+
+network gateway网关
+
+network manager网络管理员
+
+newsgroup新闻组
+
+no electronic theft act of1997无电子盗窃法
+
+node节点
+
+nonvolatile storage非易失性存储
+
+object embedding对象嵌入
+
+object linking目标链接
+
+open architecture开放式体系结构
+
+operation system 操作系统
+
+optical disk光盘
+
+optical mouse光电鼠标
+
+optical scanner光电扫描仪
+
+outline大纲
+
+off-line browsers离线浏览器
+
+online storage联机存储
+
+palmtop computer掌上电脑
+
+parallel ports并行端口
+
+passive-matrix被动矩阵
+
+pc card个人计算机卡
+
+personal laser printer个人激光打印机
+
+personal video recorder card个人视频记录卡
+
+photo printer照片打印机
+
+pixel像素
+
+platform scanner平版式扫描仪
+
+plotter绘图仪
+
+plug and play即插即用
+
+plug-in boards插件卡
+
+pointer指示器
+
+pointing stick指示棍
+
+port端口
+
+portable scanner便携式扫描仪
+
+presentation files演示文稿
+
+presentation graphics电子文稿程序
+
+primary storage主存
+
+procedures规程
+
+processor处理机
+
+programming control lanugage程序控制语言
+
+packets数据包
+
+parallel data transmission平行数据传输
+
+peer-to-peer network system点对点网络系统
+
+person-person auction site个人对个人拍卖站点
+
+physical security物理安全
+
+pits凹面
+
+plug-in插件程序
+
+polling轮询
+
+privacy隐私权
+
+proactive主动地
+
+programmer程序员
+
+protocols协议
+
+provider供应商
+
+proxy server代理服务
+
+pull products推取程序
+
+push products推送程序
+
+ram cache随机高速缓冲器
+
+range范围
+
+record记录
+
+relational database关系数据库
+
+replace替换
+
+resolution分辨率
+
+row行
+
+read-only只读
+
+reformatting重组
+
+regional service provider区域性服务供应商
+
+repetitive motion injury反复性动作损伤
+
+reverse directory反向目录
+
+right to financial privacy act of 1979财产隐私法案
+
+ring network环形网
+
+scanner扫描器
+
+search查找
+
+secondary storage device辅助存储设备
+
+semiconductor半导体
+
+serial ports串行端口
+
+server服务器
+
+shared laser printer共享激光打印机
+
+sheet表格
+
+silicon chip硅片
+
+slots插槽
+
+smart card智能卡
+
+soft copy软拷贝
+
+software suite软件协议
+
+sorting排序
+
+source file源文件
+
+special-purpose application专用文件
+
+spreadsheet电子数据表
+
+standard toolbar标准工具栏
+
+supercomputer巨型机
+
+system cabine 系统箱
+
+system clock时钟
+
+system software系统软件
+
+satellite/air connection services卫星无线连接服务
+
+search engines搜索引擎
+
+search providers搜索供应者
+
+search services 搜索服务器
+
+sectors扇区
+
+security安全
+
+sending and receiving devices发送接收设备
+
+sequential access顺序存取
+
+serial data transmission单向通信
+
+signature line签名档
+
+snoopware监控软件
+
+software copyright act of1980软件版权法案
+
+software piracy软件盗版
+
+solid-state storage固态存储器
+
+specialized search engine专用搜索引擎
+
+spiders网页爬虫
+
+spike尖峰电压
+
+star network星型网
+
+strategy方案
+
+subject主题
+
+subscription address预定地址
+
+superdisk超级磁盘
+
+surfing网上冲浪
+
+surge protector浪涌保护器
+
+systems analyst系统分析师
+
+
+table二维表
+
+telephony电话学
+
+television boards电视扩展卡
+
+terminal 终端
+
+template模板
+
+text entry文本输入
+
+thermal printer 热印刷
+
+thin client瘦客
+
+toggle key触发键
+
+toolbar工具栏
+
+touch screen触摸屏
+
+trackball追踪球
+
+tv tuner card电视调谐卡
+
+two-state system双状态系统
+
+technical writer技术协作者
+
+technostress重压技术
+
+telnet远程登录
+
+time-sharing system分时系统
+
+topology拓扑结构
+
+tracks磁道
+
+traditional cookies传统的信息记录程序
+
+twisted pair双绞
+
+unicode统一字符标准
+
+uploading上传
+
+usenet世界性新闻组网络
+
+virtual memory虚拟内存
+
+video display screen视频显示屏
+
+voice recognition system声音识别系统
+
+vertical portal纵向门户
+
+video privacy protection act of 1988视频隐私权保护法案
+
+virus checker病毒检测程序
+
+virus病毒
+
+voiceband音频带宽
+
+volatile storage易失性存储
+
+voltage surge电涌
+
+
+wand reader 条形码读入
+
+web 网络
+
+web appliance 环球网设备
+
+web page网页
+
+web site address网络地址
+
+web terminal环球网终端
+
+webcam摄像头
+
+what-if analysis假定分析
+
+wireless revolution无线革命
+
+word字长
+
+word processing文字处理
+
+word wrap自动换行
+
+worksheet file 工作文件
+
+web auctions网上拍卖
+
+web broadcasters网络广播
+
+web portals门户网站
+
+web sites网站
+
+web storefront creation packages网上商店创建包
+
+web storefronts网上商店
+
+web utilities网上应用程序
+
+web-downloading utilities网页下载应用程序
+
+webmaster web站点管理员
+
+web万维网
+
+wireless modems无线调制解调器
+
+wireless service provider无线服务供应商
+
+world wide web万维网
+
+worm蠕虫病毒
+
+write-protect notch写保护口
+
+dvd digital bersatile 数字化通用光盘
+
+it information technology信息技术
+
+cd compact disc 压缩盘
+
+pda personal digital assistant个人数字助理
+
+ram random access memory随机存储器
+
+www world wide web 万维网
+
+dbms database management system数据库管理系统
+
+html hypertext markup language超文本标示语言
+
+ole object linking and embedding对象链接入
+
+sql structured query language结构化查询语言
+
+url uniform resouice locator统一资源定位器
+
+agp accelerated graphics port加速图形接口
+
+alu arithmetic-logic unit算术逻辑单元
+
+cpu central processing unit中央处理器
+
+cmos complementary metal-oxide semiconductor互补金属氧化物半导体
+
+cisc complex instruction set computer复杂指令集计算机
+
+hpsb high performance serial bus高性能串行总线
+
+isa industry standard architecture工业标准结构体系
+
+pci peripheral component interconnect外部设备互连总线
+
+pcmcia personal memory card international association个人计算机存储卡国际协会
+
+ram random-access memory随机存储器
+
+rom read-only memory只读存储器
+
+usb universal serial bus通用串行总线
+
+crt cathode-ray tube阴极射线管
+
+hdtv high-definition television高清晰度电视
+
+lcd liquid crystal display monitor液晶显示器
+
+micrmagnetic-ink character recognition磁墨水字符识别器
+
+ocr optical-character recognition光电字符识别器
+
+omr optical-mark recognition光标阅读器
+
+tft thin film transistor monitor薄膜晶体管显示器
+
+zip disk压缩磁盘
+
+domain name system（dns）域名服务器
+
+file transfer protocol(ftp)文件传送协议
+
+hypertext markup language(html)超文本链接标识语言
+
+local area network（lan）局域网
+
+internet relay chat(irc)互联网多线交谈
+
+metropolitan area network(man)城域网
+
+network operation system(nos)网络操作系统
+
+uniform resource locator(url)统一资源定位器
+
+wide area network(wan)广域网
+
+web server / web 服务器
+
+well-connected / 连接良好
+
+well-known services / 公认的服务
+
+wide area network, wan / 广域网
+
+wildcard character / 通配符
+
+wildcarding / 通配符方式
+
+window menu / 窗口菜单
+
+windows 2000 server file and print servers for macintosh / windows 2000 server 的 macintosh 文件与打印服务器
+
+windows 2000 task manager / windows 2000 任务管理器
+
+windows internet name service, wins / windows internet 命名服务
+
+windows management instrumentation, wmi / windows 管理规范
+
+windows media services / windows media 服务
+
+wins, windows internet name service / windows internet 命名服务
+
+wins proxy / wins 代理
+
+wins resource / wins 资源
+
+winsock
+
+wireless communication / 无线通讯
+
+wmi, windows management instrumentation / windows 管理规范
+
+workgroup / 工作组
+
+x.509v3 certificate / x.509/ 证书
+
+xor, exclusive or / 异或
+
+zone / 区域
+
+zone list / 区域列表
+
+zone transfer / 区域传送

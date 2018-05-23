@@ -1,0 +1,507 @@
+"user_name","word","interpret","likes","hates","score"
+"firefly forest","active-matrix","主动矩阵",0,0,0.0002
+"firefly forest","adapter cards","适配卡",0,0,0.0002
+"firefly forest","advanced application","高级应用",0,0,0.0002
+"firefly forest","analytical graph","分析图表",0,0,0.0002
+"firefly forest","analyze","分析",0,0,0.0002
+"firefly forest","animations","动画",0,0,0.0002
+"firefly forest","application software ","应用软件",0,0,0.0002
+"firefly forest","arithmetic operations","算术运算",0,0,0.0002
+"firefly forest","audio-output device","音频输出设备",0,0,0.0002
+"firefly forest","access time","存取时间",0,0,0.0002
+"firefly forest","access","存取",0,0,0.0002
+"firefly forest","accuracy","准确性",0,0,0.0002
+"firefly forest","ad network cookies","广告网络信息记录软件",0,0,0.0002
+"firefly forest","add-ons ","插件",0,0,0.0002
+"firefly forest","address","地址",0,0,0.0002
+"firefly forest","agents","代理",0,0,0.0002
+"firefly forest","analog signals","模拟信号",0,0,0.0002
+"firefly forest","applets","程序",0,0,0.0002
+"firefly forest","asynchronous communications port","异步通信端口",0,0,0.0002
+"firefly forest","attachment","附件",0,0,0.0002
+"firefly forest","bar code","条形码",0,0,0.0002
+"firefly forest","bar code reader","条形码读卡器",0,0,0.0002
+"firefly forest","basic application","基础程序",0,0,0.0002
+"firefly forest","binary coding schemes","二进制译码方案",0,0,0.0002
+"firefly forest","binary system","二进制系统",0,0,0.0002
+"firefly forest","bit","比特",0,0,0.0002
+"firefly forest","browser","浏览器",0,0,0.0002
+"firefly forest","bus line","总线",0,0,0.0002
+"firefly forest","backup tape cartridge units","备份磁带盒单元",0,0,0.0002
+"firefly forest","bandwidth","带宽",0,0,0.0002
+"firefly forest","bluetooth","蓝牙",0,0,0.0002
+"firefly forest","broadband","宽带",0,0,0.0002
+"firefly forest","business-to-business","企业对企业电子商务",0,0,0.0002
+"firefly forest","business-to-consumer","企业对消费者",0,0,0.0002
+"firefly forest","bus","总线",0,0,0.0002
+"firefly forest","cables","连线",0,0,0.0002
+"firefly forest","cell","单元箱",0,0,0.0002
+"firefly forest","chain printer","链式打印机",0,0,0.0002
+"firefly forest","character and recognition device","字符标识识别设备",0,0,0.0002
+"firefly forest","chart","图表",0,0,0.0002
+"firefly forest","chassis","支架",0,0,0.0002
+"firefly forest","chip","芯片",0,0,0.0002
+"firefly forest","clarity","清晰度",0,0,0.0002
+"firefly forest","closed architecture","封闭式体系结构",0,0,0.0002
+"firefly forest","column","列",0,0,0.0002
+"firefly forest","combination key","结合键",0,0,0.0002
+"firefly forest","computer competency","计算机能力",0,0,0.0002
+"firefly forest","connectivity","连接，结点",0,0,0.0002
+"firefly forest","continuous-speech recognition system","连续语言识别系统",0,0,0.0002
+"firefly forest","control unit","操纵单元",0,0,0.0002
+"firefly forest","cordless or wireless mouse","无线鼠标",0,0,0.0002
+"firefly forest","cable modems","有线调制解调器",0,0,0.0002
+"firefly forest","carpal tunnel syndrome","腕骨神经综合症",0,0,0.0002
+"firefly forest","cd-rom","可记录光盘",0,0,0.0002
+"firefly forest","cd-rw","可重写光盘",0,0,0.0002
+"firefly forest","cd-r","可记录压缩光盘",0,0,0.0002
+"firefly forest","channel","信道",0,0,0.0002
+"firefly forest","chat group","谈话群组",0,0,0.0002
+"firefly forest","chlorofluorocarbons(cfcs) ","]氯氟甲烷",0,0,0.0002
+"firefly forest","client","客户端",0,0,0.0002
+"firefly forest","coaxial cable","同轴电缆",0,0,0.0002
+"firefly forest","cold site","冷网站",0,0,0.0002
+"firefly forest","commerce servers","商业服务器",0,0,0.0002
+"firefly forest","communication channel","信道",0,0,0.0002
+"firefly forest","communication systems","信息系统",0,0,0.0002
+"firefly forest","compact disc rewritable","",0,0,0.0002
+"firefly forest","compact disc","光盘",0,0,0.0002
+"firefly forest","computer abuse amendments act of 19941994","计算机滥用法案",0,0,0.0002
+"firefly forest","computer crime","计算机犯罪",0,0,0.0002
+"firefly forest","computer ethics","计算机道德",0,0,0.0002
+"firefly forest","computer fraud and abuse act of 1986","计算机欺诈和滥用法案",0,0,0.0002
+"firefly forest","computer matching and privacy protection act of 1988","计算机查找和隐私保护法案",0,0,0.0002
+"firefly forest","computer network","计算机网络",0,0,0.0002
+"firefly forest","computer support specialist","计算机支持专家",0,0,0.0002
+"firefly forest","computer technician","计算机技术人员",0,0,0.0002
+"firefly forest","computer trainer","计算机教师",0,0,0.0002
+"firefly forest","connection device","连接设备",0,0,0.0002
+"firefly forest","connectivity","连接",0,0,0.0002
+"firefly forest","consumer-to-consumer","个人对个人",0,0,0.0002
+"firefly forest","cookies-cutter programs","信息记录截取程序",0,0,0.0002
+"firefly forest","cookies","信息记录程序",0,0,0.0002
+"firefly forest","cracker","解密高手",0,0,0.0002
+"firefly forest","cumulative trauma disorder","积累性损伤错乱",0,0,0.0002
+"firefly forest","cybercash","电子现金",0,0,0.0002
+"firefly forest","cyberspace","计算机空间",0,0,0.0002
+"firefly forest","cynic","愤世嫉俗者",0,0,0.0002
+"firefly forest","database","数据库",0,0,0.0002
+"firefly forest","database files","数据库文件",0,0,0.0002
+"firefly forest","database manager","数据库管理",0,0,0.0002
+"firefly forest","data bus","数据总线",0,0,0.0002
+"firefly forest","data projector","数码放映机",0,0,0.0002
+"firefly forest","desktop system unit","台式电脑系统单元",0,0,0.0002
+"firefly forest","destination file","目标文件",0,0,0.0002
+"firefly forest","digital cameras","数码照相机",0,0,0.0002
+"firefly forest","digital notebooks","数字笔记本",0,0,0.0002
+"firefly forest","digital bideo camera","数码摄影机",0,0,0.0002
+"firefly forest","discrete-speech recognition system","不连续语言识别系统",0,0,0.0002
+"firefly forest","document","文档",0,0,0.0002
+"firefly forest","document files","文档文件",0,0,0.0002
+"firefly forest","dot-matrix printer","点矩阵式打印机",0,0,0.0002
+"firefly forest","dual-scan monitor","双向扫描显示器",0,0,0.0002
+"firefly forest","dumb terminal","非智能终端",0,0,0.0002
+"firefly forest","data security","数据安全",0,0,0.0002
+"firefly forest","data transmission specifications","数据传输说明",0,0,0.0002
+"firefly forest","database administrator","数据库管理员",0,0,0.0002
+"firefly forest","dataplay","数字播放器",0,0,0.0002
+"firefly forest","demodulation","解调",0,0,0.0002
+"firefly forest","denial of service attack","拒绝服务攻击",0,0,0.0002
+"firefly forest","dial-up service","拨号服务",0,0,0.0002
+"firefly forest","digital cash","数字现金",0,0,0.0002
+"firefly forest","digital signals","数字信号",0,0,0.0002
+"firefly forest","digital subscriber line","数字用户线路",0,0,0.0002
+"firefly forest","digital versatile disc","数字化通用磁盘",0,0,0.0002
+"firefly forest","digital video disc","数字化视频光盘",0,0,0.0002
+"firefly forest","direct access","直接存取",0,0,0.0002
+"firefly forest","directory search","目录搜索",0,0,0.0002
+"firefly forest","disaster recovery plan","灾难恢复计划",0,0,0.0002
+"firefly forest","disk caching","磁盘驱动器高速缓存",0,0,0.0002
+"firefly forest","diskette","磁盘",0,0,0.0002
+"firefly forest","disk","磁碟",0,0,0.0002
+"firefly forest","distributed data processing system","分部数据处理系统",0,0,0.0002
+"firefly forest","distributed processing","分布处理",0,0,0.0002
+"firefly forest","domain code","域代码",0,0,0.0002
+"firefly forest","downloading","下载",0,0,0.0002
+"firefly forest","dvd ","数字化通用磁盘",0,0,0.0002
+"firefly forest","dvd-r dvd","可写",0,0,0.0002
+"firefly forest","dvd-ram dvd","随机存取器",0,0,0.0002
+"firefly forest","dvd-rom dvd","只读",0,0,0.0002
+"firefly forest","e-book","电子阅读器",0,0,0.0002
+"firefly forest","expansion cards","扩展卡",0,0,0.0002
+"firefly forest","end user","终端用户",0,0,0.0002
+"firefly forest","e-cash","电子现金",0,0,0.0002
+"firefly forest","e-commerce","电子商务",0,0,0.0002
+"firefly forest","electronic cash","电子现金",0,0,0.0002
+"firefly forest","electronic commerce","电子商务",0,0,0.0002
+"firefly forest","electronic communications privacy act of1986","电子通信隐私法案",0,0,0.0002
+"firefly forest","encrypting","加密术",0,0,0.0002
+"firefly forest","energy star","能源之星",0,0,0.0002
+"firefly forest","enterprise computing","企业计算化",0,0,0.0002
+"firefly forest","environment","环境",0,0,0.0002
+"firefly forest","erasable optical disks","可擦除式光盘",0,0,0.0002
+"firefly forest","ergonomics","人类工程学",0,0,0.0002
+"firefly forest","ethics","道德规范",0,0,0.0002
+"firefly forest","external modem","外置调制解调器",0,0,0.0002
+"firefly forest","extranet","企业外部网",0,0,0.0002
+"firefly forest","fax machine","传真机",0,0,0.0002
+"firefly forest","field","域",0,0,0.0002
+"firefly forest","find","搜索",0,0,0.0002
+"firefly forest","firewire port","火线端口",0,0,0.0002
+"firefly forest","firmware","固件",0,0,0.0002
+"firefly forest","flash ram","闪存",0,0,0.0002
+"firefly forest","flatbed scanner","台式扫描器",0,0,0.0002
+"firefly forest","flat-panel monitor","纯平显示器",0,0,0.0002
+"firefly forest","floppy disk","软盘",0,0,0.0002
+"firefly forest","formatting toolbar","格式化工具条",0,0,0.0002
+"firefly forest","formula","公式",0,0,0.0002
+"firefly forest","function","函数",0,0,0.0002
+"firefly forest","fair credit reporting act of 1970","公平信用报告法案",0,0,0.0002
+"firefly forest","fiber-optic cable","光纤电缆",0,0,0.0002
+"firefly forest","file compression","文件压缩",0,0,0.0002
+"firefly forest","file decompression","文件解压缩",0,0,0.0002
+"firefly forest","filter","过滤",0,0,0.0002
+"firefly forest","firewall","防火墙",0,0,0.0002
+"firefly forest","firewall","防火墙",0,0,0.0002
+"firefly forest","fixed disk","固定硬盘",0,0,0.0002
+"firefly forest","flash memory","闪存",0,0,0.0002
+"firefly forest","flexible disk","可折叠磁盘",0,0,0.0002
+"firefly forest","floppies","磁盘",0,0,0.0002
+"firefly forest","floppy-disk cartridge","磁盘盒",0,0,0.0002
+"firefly forest","formatting","格式化",0,0,0.0002
+"firefly forest","freedom of information act of 1970","信息自由法案",0,0,0.0002
+"firefly forest","frequency","频率",0,0,0.0002
+"firefly forest","frustrated","受挫折",0,0,0.0002
+"firefly forest","full-duplex communication","全双通通信",0,0,0.0002
+"firefly forest","general-purpose application","通用运用程序",0,0,0.0002
+"firefly forest","gigahertz","千兆赫",0,0,0.0002
+"firefly forest","graphic tablet","绘图板",0,0,0.0002
+"firefly forest","green pc","绿色个人计算机",0,0,0.0002
+"firefly forest","grop by ","排序",0,0,0.0002
+"firefly forest","handheld computer","手提电脑",0,0,0.0002
+"firefly forest","hard copy","硬拷贝",0,0,0.0002
+"firefly forest","hard disk","硬盘",0,0,0.0002
+"firefly forest","hardware","硬件",0,0,0.0002
+"firefly forest","help","帮助",0,0,0.0002
+"firefly forest","host computer","主机",0,0,0.0002
+"firefly forest","home page","主页",0,0,0.0002
+"firefly forest","hyperlink","超链接",0,0,0.0002
+"firefly forest","hacker","黑客",0,0,0.0002
+"firefly forest","half-duplex communication","半双通通信",0,0,0.0002
+"firefly forest","hard-disk cartridge","硬盘盒",0,0,0.0002
+"firefly forest","hard-disk pack","硬盘组",0,0,0.0002
+"firefly forest","head crash","磁头碰撞",0,0,0.0002
+"firefly forest","header","标题",0,0,0.0002
+"firefly forest","help desk specialist","帮助办公专家",0,0,0.0002
+"firefly forest","helper applications","帮助软件",0,0,0.0002
+"firefly forest","hierarchical network","层次型网络",0,0,0.0002
+"firefly forest","history file","历史文件",0,0,0.0002
+"firefly forest","hits","匹配记录",0,0,0.0002
+"firefly forest","horizontal portal","横向用户",0,0,0.0002
+"firefly forest","hot site","热网站",0,0,0.0002
+"firefly forest","hybrid network","混合网络",0,0,0.0002
+"firefly forest","image capturing device","图像获取设备",0,0,0.0002
+"firefly forest","information technology","信息技术",0,0,0.0002
+"firefly forest","ink-jet printer","墨水喷射印刷机",0,0,0.0002
+"firefly forest","integrated package","综合性组件",0,0,0.0002
+"firefly forest","intelligent terminal","智能终端设备",0,0,0.0002
+"firefly forest","intergrated circuit","集成电路",0,0,0.0002
+"firefly forest","interface cards","接口卡",0,0,0.0002
+"firefly forest","internal modem","内部调制解调器",0,0,0.0002
+"firefly forest","internet telephony","网络电话",0,0,0.0002
+"firefly forest","internet terminal","互联网终端",0,0,0.0002
+"firefly forest","identification","识别",0,0,0.0002
+"firefly forest","i-drive","网络硬盘驱动器",0,0,0.0002
+"firefly forest","illusion of anonymity","匿名幻想",0,0,0.0002
+"firefly forest","index search","索引搜索",0,0,0.0002
+"firefly forest","information pushers","信息推送器",0,0,0.0002
+"firefly forest","initializing ","初始化",0,0,0.0002
+"firefly forest","instant messaging","计时信息",0,0,0.0002
+"firefly forest","internal hard disk","内置硬盘",0,0,0.0002
+"firefly forest","internet hard drive ","网络硬盘驱动器",0,0,0.0002
+"firefly forest","intranet","企业内部网",0,0,0.0002
+"firefly forest","joystick","操纵杆",0,0,0.0002
+"firefly forest","keyword search","关键字搜索",0,0,0.0002
+"firefly forest","laser printer","激光打印机",0,0,0.0002
+"firefly forest","layout files","版式文件",0,0,0.0002
+"firefly forest","light pen","光笔",0,0,0.0002
+"firefly forest","locate","定位",0,0,0.0002
+"firefly forest","logical operations","逻辑运算",0,0,0.0002
+"firefly forest","lands","凸面",0,0,0.0002
+"firefly forest","line of sight communication","视影通信",0,0,0.0002
+"firefly forest","low bandwidth","低带宽",0,0,0.0002
+"firefly forest","lurking","潜伏",0,0,0.0002
+"firefly forest","main board","主板",0,0,0.0002
+"firefly forest","mark sensing","标志检测",0,0,0.0002
+"firefly forest","mechanical mouse","机械鼠标",0,0,0.0002
+"firefly forest","memory","内存",0,0,0.0002
+"firefly forest","menu","菜单",0,0,0.0002
+"firefly forest","menu bar","菜单条",0,0,0.0002
+"firefly forest","microprocessor","微处理器",0,0,0.0002
+"firefly forest","microseconds","微秒",0,0,0.0002
+"firefly forest","modem card","调制解调器",0,0,0.0002
+"firefly forest","monitor","显示器",0,0,0.0002
+"firefly forest","motherboard","主板",0,0,0.0002
+"firefly forest","mouse ","鼠标",0,0,0.0002
+"firefly forest","multifunctional device","多功能设备",0,0,0.0002
+"firefly forest","magnetic tape reels","磁带卷",0,0,0.0002
+"firefly forest","magnetic tape streamers","磁带条",0,0,0.0002
+"firefly forest","mailing list","邮件列表",0,0,0.0002
+"firefly forest","medium band","媒质带宽",0,0,0.0002
+"firefly forest","metasearch engine","整合搜索引擎",0,0,0.0002
+"firefly forest","microwave","微波",0,0,0.0002
+"firefly forest","modem","解调器",0,0,0.0002
+"firefly forest","modulation","解调",0,0,0.0002
+"firefly forest","net pc","网络计算机",0,0,0.0002
+"firefly forest","network adapter card","网卡",0,0,0.0002
+"firefly forest","network personal computer","网络个人电脑",0,0,0.0002
+"firefly forest","network terminal ","网络终端",0,0,0.0002
+"firefly forest","notebook computer","笔记本电脑",0,0,0.0002
+"firefly forest","notebook system unit","笔记本系统单元",0,0,0.0002
+"firefly forest","numeric entry","数字输入",0,0,0.0002
+"firefly forest","national information infrastructure protection act of1996","国际信息保护法案",0,0,0.0002
+"firefly forest","national service provider","全国性服务供应商",0,0,0.0002
+"firefly forest","network architecture","网络体系结构",0,0,0.0002
+"firefly forest","network bridge","网桥",0,0,0.0002
+"firefly forest","network gateway","网关",0,0,0.0002
+"firefly forest","network manager","网络管理员",0,0,0.0002
+"firefly forest","newsgroup","新闻组",0,0,0.0002
+"firefly forest","no electronic theft act of1997","无电子盗窃法",0,0,0.0002
+"firefly forest","node","节点",0,0,0.0002
+"firefly forest","nonvolatile storage","非易失性存储",0,0,0.0002
+"firefly forest","object embedding","对象嵌入",0,0,0.0002
+"firefly forest","object linking","目标链接",0,0,0.0002
+"firefly forest","open architecture","开放式体系结构",0,0,0.0002
+"firefly forest","operation system ","操作系统",0,0,0.0002
+"firefly forest","optical disk","光盘",0,0,0.0002
+"firefly forest","optical mouse","光电鼠标",0,0,0.0002
+"firefly forest","optical scanner","光电扫描仪",0,0,0.0002
+"firefly forest","outline","大纲",0,0,0.0002
+"firefly forest","off-line browsers","离线浏览器",0,0,0.0002
+"firefly forest","online storage","联机存储",0,0,0.0002
+"firefly forest","palmtop computer","掌上电脑",0,0,0.0002
+"firefly forest","parallel ports","并行端口",0,0,0.0002
+"firefly forest","passive-matrix","被动矩阵",0,0,0.0002
+"firefly forest","pc card","个人计算机卡",0,0,0.0002
+"firefly forest","personal laser printer","个人激光打印机",0,0,0.0002
+"firefly forest","personal video recorder card","个人视频记录卡",0,0,0.0002
+"firefly forest","photo printer","照片打印机",0,0,0.0002
+"firefly forest","pixel","像素",0,0,0.0002
+"firefly forest","platform scanner","平版式扫描仪",0,0,0.0002
+"firefly forest","plotter","绘图仪",0,0,0.0002
+"firefly forest","plug and play","即插即用",0,0,0.0002
+"firefly forest","plug-in boards","插件卡",0,0,0.0002
+"firefly forest","pointer","指示器",0,0,0.0002
+"firefly forest","pointing stick","指示棍",0,0,0.0002
+"firefly forest","port","端口",0,0,0.0002
+"firefly forest","portable scanner","便携式扫描仪",0,0,0.0002
+"firefly forest","presentation files","演示文稿",0,0,0.0002
+"firefly forest","presentation graphics","电子文稿程序",0,0,0.0002
+"firefly forest","primary storage","主存",0,0,0.0002
+"firefly forest","procedures","规程",0,0,0.0002
+"firefly forest","processor","处理机",0,0,0.0002
+"firefly forest","programming control lanugage","程序控制语言",0,0,0.0002
+"firefly forest","packets","数据包",0,0,0.0002
+"firefly forest","parallel data transmission","平行数据传输",0,0,0.0002
+"firefly forest","peer-to-peer network system","点对点网络系统",0,0,0.0002
+"firefly forest","person-person auction site","个人对个人拍卖站点",0,0,0.0002
+"firefly forest","physical security","物理安全",0,0,0.0002
+"firefly forest","pits","凹面",0,0,0.0002
+"firefly forest","plug-in","插件程序",0,0,0.0002
+"firefly forest","polling","轮询",0,0,0.0002
+"firefly forest","privacy","隐私权",0,0,0.0002
+"firefly forest","proactive","主动地",0,0,0.0002
+"firefly forest","programmer","程序员",0,0,0.0002
+"firefly forest","protocols","协议",0,0,0.0002
+"firefly forest","provider","供应商",0,0,0.0002
+"firefly forest","proxy server","代理服务",0,0,0.0002
+"firefly forest","pull products","推取程序",0,0,0.0002
+"firefly forest","push products","推送程序",0,0,0.0002
+"firefly forest","ram cache","随机高速缓冲器",0,0,0.0002
+"firefly forest","range","范围",0,0,0.0002
+"firefly forest","record","记录",0,0,0.0002
+"firefly forest","relational database","关系数据库",0,0,0.0002
+"firefly forest","replace","替换",0,0,0.0002
+"firefly forest","resolution","分辨率",0,0,0.0002
+"firefly forest","row","行",0,0,0.0002
+"firefly forest","read-only","只读",0,0,0.0002
+"firefly forest","reformatting","重组",0,0,0.0002
+"firefly forest","regional service provider","区域性服务供应商",0,0,0.0002
+"firefly forest","repetitive motion injury","反复性动作损伤",0,0,0.0002
+"firefly forest","reverse directory","反向目录",0,0,0.0002
+"firefly forest","right to financial privacy act of 1979","财产隐私法案",0,0,0.0002
+"firefly forest","ring network","环形网",0,0,0.0002
+"firefly forest","scanner","扫描器",0,0,0.0002
+"firefly forest","search","查找",0,0,0.0002
+"firefly forest","secondary storage device","辅助存储设备",0,0,0.0002
+"firefly forest","semiconductor","半导体",0,0,0.0002
+"firefly forest","serial ports","串行端口",0,0,0.0002
+"firefly forest","server","服务器",0,0,0.0002
+"firefly forest","shared laser printer","共享激光打印机",0,0,0.0002
+"firefly forest","sheet","表格",0,0,0.0002
+"firefly forest","silicon chip","硅片",0,0,0.0002
+"firefly forest","slots","插槽",0,0,0.0002
+"firefly forest","smart card","智能卡",0,0,0.0002
+"firefly forest","soft copy","软拷贝",0,0,0.0002
+"firefly forest","software suite","软件协议",0,0,0.0002
+"firefly forest","sorting","排序",0,0,0.0002
+"firefly forest","source file","源文件",0,0,0.0002
+"firefly forest","special-purpose application","专用文件",0,0,0.0002
+"firefly forest","spreadsheet","电子数据表",0,0,0.0002
+"firefly forest","standard toolbar","标准工具栏",0,0,0.0002
+"firefly forest","supercomputer","巨型机",0,0,0.0002
+"firefly forest","system cabine ","系统箱",0,0,0.0002
+"firefly forest","system clock","时钟",0,0,0.0002
+"firefly forest","system software","系统软件",0,0,0.0002
+"firefly forest","satelliteair connection services","卫星无线连接服务",0,0,0.0002
+"firefly forest","search engines","搜索引擎",0,0,0.0002
+"firefly forest","search providers","搜索供应者",0,0,0.0002
+"firefly forest","search services ","搜索服务器",0,0,0.0002
+"firefly forest","sectors","扇区",0,0,0.0002
+"firefly forest","security","安全",0,0,0.0002
+"firefly forest","sending and receiving devices","发送接收设备",0,0,0.0002
+"firefly forest","sequential access","顺序存取",0,0,0.0002
+"firefly forest","serial data transmission","单向通信",0,0,0.0002
+"firefly forest","signature line","签名档",0,0,0.0002
+"firefly forest","snoopware","监控软件",0,0,0.0002
+"firefly forest","software copyright act of1980","软件版权法案",0,0,0.0002
+"firefly forest","software piracy","软件盗版",0,0,0.0002
+"firefly forest","solid-state storage","固态存储器",0,0,0.0002
+"firefly forest","specialized search engine","专用搜索引擎",0,0,0.0002
+"firefly forest","spiders","网页爬虫",0,0,0.0002
+"firefly forest","spike","尖峰电压",0,0,0.0002
+"firefly forest","star network","星型网",0,0,0.0002
+"firefly forest","strategy","方案",0,0,0.0002
+"firefly forest","subject","主题",0,0,0.0002
+"firefly forest","subscription address","预定地址",0,0,0.0002
+"firefly forest","superdisk","超级磁盘",0,0,0.0002
+"firefly forest","surfing","网上冲浪",0,0,0.0002
+"firefly forest","surge protector","浪涌保护器",0,0,0.0002
+"firefly forest","systems analyst","系统分析师",0,0,0.0002
+"firefly forest","table","二维表",0,0,0.0002
+"firefly forest","telephony","电话学",0,0,0.0002
+"firefly forest","television boards","电视扩展卡",0,0,0.0002
+"firefly forest","terminal ","终端",0,0,0.0002
+"firefly forest","template","模板",0,0,0.0002
+"firefly forest","text entry","文本输入",0,0,0.0002
+"firefly forest","thermal printer ","热印刷",0,0,0.0002
+"firefly forest","thin client","瘦客",0,0,0.0002
+"firefly forest","toggle key","触发键",0,0,0.0002
+"firefly forest","toolbar","工具栏",0,0,0.0002
+"firefly forest","touch screen","触摸屏",0,0,0.0002
+"firefly forest","trackball","追踪球",0,0,0.0002
+"firefly forest","tv tuner card","电视调谐卡",0,0,0.0002
+"firefly forest","two-state system","双状态系统",0,0,0.0002
+"firefly forest","technical writer","技术协作者",0,0,0.0002
+"firefly forest","technostress","重压技术",0,0,0.0002
+"firefly forest","telnet","远程登录",0,0,0.0002
+"firefly forest","time-sharing system","分时系统",0,0,0.0002
+"firefly forest","topology","拓扑结构",0,0,0.0002
+"firefly forest","tracks","磁道",0,0,0.0002
+"firefly forest","traditional cookies","传统的信息记录程序",0,0,0.0002
+"firefly forest","twisted pair","双绞",0,0,0.0002
+"firefly forest","unicode","统一字符标准",0,0,0.0002
+"firefly forest","uploading","上传",0,0,0.0002
+"firefly forest","usenet","世界性新闻组网络",0,0,0.0002
+"firefly forest","virtual memory","虚拟内存",0,0,0.0002
+"firefly forest","video display screen","视频显示屏",0,0,0.0002
+"firefly forest","voice recognition system","声音识别系统",0,0,0.0002
+"firefly forest","vertical portal","纵向门户",0,0,0.0002
+"firefly forest","video privacy protection act of 1988","视频隐私权保护法案",0,0,0.0002
+"firefly forest","virus checker","病毒检测程序",0,0,0.0002
+"firefly forest","virus","病毒",0,0,0.0002
+"firefly forest","voiceband","音频带宽",0,0,0.0002
+"firefly forest","volatile storage","易失性存储",0,0,0.0002
+"firefly forest","voltage surge","电涌",0,0,0.0002
+"firefly forest","wand reader ","条形码读入",0,0,0.0002
+"firefly forest","web ","网络",0,0,0.0002
+"firefly forest","web appliance ","环球网设备",0,0,0.0002
+"firefly forest","web page","网页",0,0,0.0002
+"firefly forest","web site address","网络地址",0,0,0.0002
+"firefly forest","web terminal","环球网终端",0,0,0.0002
+"firefly forest","webcam","摄像头",0,0,0.0002
+"firefly forest","what-if analysis","假定分析",0,0,0.0002
+"firefly forest","wireless revolution","无线革命",0,0,0.0002
+"firefly forest","word","字长",0,0,0.0002
+"firefly forest","word processing","文字处理",0,0,0.0002
+"firefly forest","word wrap","自动换行",0,0,0.0002
+"firefly forest","worksheet file ","工作文件",0,0,0.0002
+"firefly forest","web auctions","网上拍卖",0,0,0.0002
+"firefly forest","web broadcasters","网络广播",0,0,0.0002
+"firefly forest","web portals","门户网站",0,0,0.0002
+"firefly forest","web sites","网站",0,0,0.0002
+"firefly forest","web storefront creation packages","网上商店创建包",0,0,0.0002
+"firefly forest","web storefronts","网上商店",0,0,0.0002
+"firefly forest","web utilities","网上应用程序",0,0,0.0002
+"firefly forest","web-downloading utilities","网页下载应用程序",0,0,0.0002
+"firefly forest","webmaster web","站点管理员",0,0,0.0002
+"firefly forest","web","万维网",0,0,0.0002
+"firefly forest","wireless modems","无线调制解调器",0,0,0.0002
+"firefly forest","wireless service provider","无线服务供应商",0,0,0.0002
+"firefly forest","world wide web","万维网",0,0,0.0002
+"firefly forest","worm","蠕虫病毒",0,0,0.0002
+"firefly forest","write-protect notch","写保护口",0,0,0.0002
+"firefly forest","dvd digital bersatile ","数字化通用光盘",0,0,0.0002
+"firefly forest","it information technology","信息技术",0,0,0.0002
+"firefly forest","cd compact disc ","压缩盘",0,0,0.0002
+"firefly forest","pda personal digital assistant","个人数字助理",0,0,0.0002
+"firefly forest","ram random access memory","随机存储器",0,0,0.0002
+"firefly forest","www world wide web ","万维网",0,0,0.0002
+"firefly forest","dbms database management system","数据库管理系统",0,0,0.0002
+"firefly forest","html hypertext markup language","超文本标示语言",0,0,0.0002
+"firefly forest","ole object linking and embedding","对象链接入",0,0,0.0002
+"firefly forest","sql structured query language","结构化查询语言",0,0,0.0002
+"firefly forest","url uniform resouice locator","统一资源定位器",0,0,0.0002
+"firefly forest","agp accelerated graphics port","加速图形接口",0,0,0.0002
+"firefly forest","alu arithmetic-logic unit","算术逻辑单元",0,0,0.0002
+"firefly forest","cpu central processing unit","中央处理器",0,0,0.0002
+"firefly forest","cmos complementary metal-oxide semiconductor","互补金属氧化物半导体",0,0,0.0002
+"firefly forest","cisc complex instruction set computer","复杂指令集计算机",0,0,0.0002
+"firefly forest","hpsb high performance serial bus","高性能串行总线",0,0,0.0002
+"firefly forest","isa industry standard architecture","工业标准结构体系",0,0,0.0002
+"firefly forest","pci peripheral component interconnect","外部设备互连总线",0,0,0.0002
+"firefly forest","pcmcia personal memory card international association","个人计算机存储卡国际协会",0,0,0.0002
+"firefly forest","ram random-access memory","随机存储器",0,0,0.0002
+"firefly forest","rom read-only memory","只读存储器",0,0,0.0002
+"firefly forest","usb universal serial bus","通用串行总线",0,0,0.0002
+"firefly forest","crt cathode-ray tube","阴极射线管",0,0,0.0002
+"firefly forest","hdtv high-definition television","高清晰度电视",0,0,0.0002
+"firefly forest","lcd liquid crystal display monitor","液晶显示器",0,0,0.0002
+"firefly forest","micrmagnetic-ink character recognition","磁墨水字符识别器",0,0,0.0002
+"firefly forest","ocr optical-character recognition","光电字符识别器",0,0,0.0002
+"firefly forest","omr optical-mark recognition","光标阅读器",0,0,0.0002
+"firefly forest","tft thin film transistor monitor","薄膜晶体管显示器",0,0,0.0002
+"firefly forest","zip disk","压缩磁盘",0,0,0.0002
+"firefly forest","domain name system（dns）","域名服务器",0,0,0.0002
+"firefly forest","file transfer protocol(ftp)","文件传送协议",0,0,0.0002
+"firefly forest","hypertext markup language(html)","超文本链接标识语言",0,0,0.0002
+"firefly forest","local area network（lan）","局域网",0,0,0.0002
+"firefly forest","internet relay chat(irc)","互联网多线交谈",0,0,0.0002
+"firefly forest","metropolitan area network(man)","城域网",0,0,0.0002
+"firefly forest","network operation system(nos)","网络操作系统",0,0,0.0002
+"firefly forest","uniform resource locator(url)","统一资源定位器",0,0,0.0002
+"firefly forest","wide area network(wan)","广域网",0,0,0.0002
+"firefly forest","web server  web ","服务器",0,0,0.0002
+"firefly forest","well-connected  ","连接良好",0,0,0.0002
+"firefly forest","well-known services  ","公认的服务",0,0,0.0002
+"firefly forest","wide area network, wan  ","广域网",0,0,0.0002
+"firefly forest","wildcard character  ","通配符",0,0,0.0002
+"firefly forest","wildcarding  ","通配符方式",0,0,0.0002
+"firefly forest","window menu  ","窗口菜单",0,0,0.0002
+"firefly forest","windows 2000 server file and print servers for macintosh  windows 2000 server  macintosh ","的文件与打印服务器",0,0,0.0002
+"firefly forest","windows 2000 task manager  windows 2000 ","任务管理器",0,0,0.0002
+"firefly forest","windows internet name service, wins  windows internet ","命名服务",0,0,0.0002
+"firefly forest","windows management instrumentation, wmi  windows ","管理规范",0,0,0.0002
+"firefly forest","windows media services  windows media ","服务",0,0,0.0002
+"firefly forest","wins, windows internet name service  windows internet ","命名服务",0,0,0.0002
+"firefly forest","wins proxy  wins ","代理",0,0,0.0002
+"firefly forest","wins resource  wins ","资源",0,0,0.0002
+"firefly forest","winsock","",0,0,0.0002
+"firefly forest","wireless communication  ","无线通讯",0,0,0.0002
+"firefly forest","wmi, windows management instrumentation  windows ","管理规范",0,0,0.0002
+"firefly forest","workgroup  ","工作组",0,0,0.0002
+"firefly forest","x.509v3 certificate  x.509 ","证书",0,0,0.0002
+"firefly forest","xor, exclusive or  ","异或",0,0,0.0002
+"firefly forest","zone  ","区域",0,0,0.0002
+"firefly forest","zone list  ","区域列表",0,0,0.0002
+"firefly forest","zone transfer  ","区域传送",0,0,0.0002
